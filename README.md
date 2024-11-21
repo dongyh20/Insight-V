@@ -5,6 +5,8 @@
     <a href='https://github.com/liuzuyan' target='_blank'>Zuyan Liu<sup>*,2,3</sup></a>&emsp;
     Hai-Long Sun<sup>2,4</sup></a>&emsp;
     <a href='https://jingkang50.github.io/' target='_blank'>Jingkang Yang<sup>1</sup></a>&emsp;
+</p>
+<p align="left">
     Winston Hu<sup>2</sup></a>&emsp;
    <a href='https://raoyongming.github.io/' target='_blank'>Yongming Rao<sup>2,3,&#x2709</sup></a>&emsp;
 	 <a href='https://liuziwei7.github.io/' target='_blank'>Ziwei Liu<sup>1,&#x2709</sup></a>&emsp;
@@ -23,7 +25,7 @@
 ### Main idea of Insight-V
 **Insight-V is an early effort to explore long-chain visual reasoning with MLLMs**
 
-**Insight-V offers 1) a scalable data generation pipeline for long-chain, high-quality reasoning data, 2) a multi-agent system that decomposes visual reasoning tasks into reasoning and summarization, and 3) a two-stage training pipeline to enhance visual reasoning capabilities. Together, these contributions address key challenges in visual reasoning, providing a solid foundation for future research in MLLM reasoning.**
+Insight-V offers **1)** a scalable data generation pipeline for long-chain, high-quality reasoning data, **2)** a multi-agent system that decomposes visual reasoning tasks into reasoning and summarization, and **3)** a two-stage training pipeline to enhance visual reasoning capabilities. Together, these contributions address key challenges in visual reasoning, providing a solid foundation for future research in MLLM reasoning.
 
 
 ### Overview of Data Generation Pipeline
@@ -46,7 +48,7 @@ We derive a multi-agent system from a single model. By decomposing the task into
 ## ✅ TODO List
 
  - [x] Release paper on arXiv
- - [ ] Release model.
+ - [ ] Release Insight-V models.
  - [ ] Demo code for generation.
  - [ ] All the training and inference code.
  - [ ] Evaluation code for visual reasoning benchmarks.
