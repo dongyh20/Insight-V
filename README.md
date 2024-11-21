@@ -1,4 +1,4 @@
-## Insight-V: Exploring o1-like Long-Chain Visual Reasoning with Multimodal Large Language Models
+## Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models
 
 <p align="left">
     <a href='https://github.com/dongyh20/' target='_blank'>Yuhao Dong<sup>*,1</sup></a>&emsp;
@@ -16,14 +16,19 @@
 
 <p align="left"><sup>*</sup> Equal Contribution<sup>&ensp; &#x2709</sup>  Corresponding Author</p>
 
+**arXiv Paper:** [![Static Badge](https://img.shields.io/badge/Insight_V-paper-green)](https://arxiv.org/abs/2409.12961v2) 
+
+**Model Checkpoints**: [![Insight-V-checkpoints](https://img.shields.io/badge/Insight_V-checkpoints-blue)](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035) 
+
+
 ## 📢 News
 
-- [11/2024] 🔥 **🚀Introducing Insight-V!** An early attempt to explore o1-like long-chain visual reasoning with MLLMs.
+- [11/2024] 🔥 **🚀Introducing Insight-V!** An early attempt to explore long-chain visual reasoning with MLLMs.
 
 ## 🚀 Introducing Insight-V
 
 ### Main idea of Insight-V
-**Insight-V is an early effort to explore long-chain visual reasoning with MLLMs**
+**Insight-V is an early effort to explore long-chain visual reasoning with MLLMs.**
 
 Insight-V offers **1)** a scalable data generation pipeline for long-chain, high-quality reasoning data, **2)** a multi-agent system that decomposes visual reasoning tasks into reasoning and summarization, and **3)** a two-stage training pipeline to enhance visual reasoning capabilities. Together, these contributions address key challenges in visual reasoning, providing a solid foundation for future research in MLLM reasoning.
 
@@ -48,11 +53,12 @@ We derive a multi-agent system from a single model. By decomposing the task into
 ## ✅ TODO List
 
  - [x] Release paper on arXiv
- - [ ] Release Insight-V models.
+ - [x] Release Insight-V models.
  - [ ] Demo code for generation.
  - [ ] All the training and inference code.
  - [ ] Evaluation code for visual reasoning benchmarks.
  - [ ] Insight-V SFT Data.
+ - [ ] Insight-V with stronger MLLMs.
 
 ## 📃 Main Results
 
