@@ -67,7 +67,7 @@ We derive a multi-agent system from a single model. By decomposing the task into
 ### Results on Visual Reasoning Benchmarks
 
 <div align=center>
-<img src="figure/visual_reasoning.png" width="640px">
+<img src="figure/visual_reasoning_benchmark.png" width="640px">
 </div>
 
 
