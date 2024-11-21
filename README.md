@@ -25,7 +25,7 @@
 
 - [11/2024] 🔥 **🚀Introducing Insight-V!** An early attempt to explore long-chain visual reasoning with MLLMs.
   * [[Paper]](https://arxiv.org/abs/xxxx.xxxx): Detailed introduction of Insight-V, including **structured, long-chain data generation pipeline** and **effective multi-agent system design**! 
-  * [[Checkpoints]](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035): Try our reasoning model and summary model on your own. <u>Inference code will be provided soon</u>.
+  * [[Checkpoints]](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035): We release model checkpoints on LLaVA-NeXT-LLaMA3 and our base model.
 
 ## 🚀 Introducing Insight-V
 
