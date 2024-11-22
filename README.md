@@ -16,7 +16,7 @@
 
 <p align="left"><sup>*</sup> Equal Contribution<sup>&ensp; &#x2709</sup>  Corresponding Author</p>
 
-**arXiv Paper:** [![Static Badge](https://img.shields.io/badge/Insight_V-paper-green)](https://arxiv.org/abs/2409.12961v2) 
+**arXiv Paper:** [![Static Badge](https://img.shields.io/badge/Insight_V-paper-green)](https://arxiv.org/abs/2411.14432) 
 
 **Model Checkpoints**: [![Insight-V-checkpoints](https://img.shields.io/badge/Insight_V-checkpoints-blue)](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035) 
 
@@ -24,7 +24,7 @@
 ## 📢 News
 
 - [11/2024] 🔥 **🚀Introducing Insight-V!** An early attempt to explore long-chain visual reasoning with MLLMs.
-  * [[Paper]](https://arxiv.org/abs/xxxx.xxxx): Detailed introduction of Insight-V, including **structured, long-chain data generation pipeline** and **effective multi-agent system design**! 
+  * [[Paper]](https://arxiv.org/abs/2411.14432): Detailed introduction of Insight-V, including **structured, long-chain data generation pipeline** and **effective multi-agent system design**! 
   * [[Checkpoints]](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035): We release model checkpoints on LLaVA-NeXT-LLaMA3 and our base model.
 
 ## 🚀 Introducing Insight-V
