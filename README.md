@@ -105,4 +105,4 @@ If you find it useful for your research and applications, please cite our paper 
 
 - Our codebase is conducted on [LLaVA](https://github.com/LLaVA-VL/LLaVA-NeXT)
 
-- Thanks to [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) team, for building such a usefule evaluation system!
+- Thanks to [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) team, for building such a useful evaluation system!
