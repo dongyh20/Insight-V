@@ -22,7 +22,7 @@
 
 
 ## 📢 News
-
+- [11/2024] 🔧🔨**Training & Inference Scripts Release!** Try Insight-V on your own!
 - [11/2024] 🔥 **🚀Introducing Insight-V!** An early attempt to explore long-chain visual reasoning with MLLMs.
   * [[Paper]](https://arxiv.org/abs/2411.14432): Detailed introduction of Insight-V, including **structured, long-chain data generation pipeline** and **effective multi-agent system design**! 
   * [[Checkpoints]](https://huggingface.co/collections/THUdyh/insight-v-673f5e1dd8ab5f2d8d332035): We release model checkpoints on LLaVA-NeXT-LLaMA3 and our base model.
@@ -101,5 +101,7 @@ If you find it useful for your research and applications, please cite our paper 
 ## Acknowledgement
 
 - Our codebase is conducted on [LLaVA](https://github.com/LLaVA-VL/LLaVA-NeXT)
+
+- The data generation pipeline is mitigated from [g1](https://github.com/bklieger-groq/g1)
 
 - Thanks to [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) team, for building such a useful evaluation system!
