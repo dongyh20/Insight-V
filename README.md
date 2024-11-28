@@ -89,14 +89,11 @@ We derive a multi-agent system from a single model. By decomposing the task into
 If you find it useful for your research and applications, please cite our paper using this BibTeX:
 
 ```bibtex
-@misc{dong2024insightvexploringlongchainvisual,
-      title={Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models}, 
-      author={Yuhao Dong and Zuyan Liu and Hai-Long Sun and Jingkang Yang and Winston Hu and Yongming Rao and Ziwei Liu},
-      year={2024},
-      eprint={2411.14432},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2411.14432}, 
+@article{dong2024insight,
+  title={Insight-V: Exploring Long-Chain Visual Reasoning with Multimodal Large Language Models},
+  author={Dong, Yuhao and Liu, Zuyan and Sun, Hai-Long and Yang, Jingkang and Hu, Winston and Rao, Yongming and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2411.14432},
+  year={2024}
 }
 
 ```
