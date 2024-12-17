@@ -31,6 +31,13 @@ from transformers import Qwen2Config, Qwen2Model, Qwen2ForCausalLM
 # from .qwen.modeling_qwen import QWenLMHeadModel, QWenModel
 # from .qwen.configuration_qwen import QWenConfig
 
+import os
+if 'DPO_FORWARD' in os.environ:
+    print("DPO_FORWARD is set")
+    DPO_FORWARD = True
+else:
+    DPO_FORWARD = False
+
 
 class LlavaQwenConfig(Qwen2Config):
     model_type = "llava_qwen"
@@ -82,7 +89,7 @@ class LlavaQwenForCausalLM(Qwen2ForCausalLM, LlavaMetaForCausalLM):
         if inputs_embeds is None:
             (input_ids, position_ids, attention_mask, past_key_values, inputs_embeds, labels) = self.prepare_inputs_labels_for_multimodal(input_ids, position_ids, attention_mask, past_key_values, labels, images, modalities, image_sizes)
 
-        if dpo_forward:
+        if DPO_FORWARD:
             outputs = self.model(
                 input_ids=input_ids,
                 attention_mask=attention_mask,
