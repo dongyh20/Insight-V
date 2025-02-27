@@ -22,6 +22,7 @@
 
 
 ## 📢 News
+- [02/2025] Insight-V is accepted by CVPR2025!
 - [11/2024] 🔧🔨**Training & Inference Scripts Release!** Try Insight-V on your own!
 - [11/2024] 🔥 **🚀Introducing Insight-V!** An early attempt to explore long-chain visual reasoning with MLLMs.
   * [[Paper]](https://arxiv.org/abs/2411.14432): Detailed introduction of Insight-V, including **structured, long-chain data generation pipeline** and **effective multi-agent system design**! 
