@@ -195,6 +195,9 @@ cont = reason_model._model.generate(
 )
 text_outputs = reason_model._tokenizer.batch_decode(cont, skip_special_tokens=False)
 
+print("Reasoning Process:")
+print(text_outputs[0])
+
 reason_chain = text_outputs[0].split("<thoughts>")[-1].split("</thoughts>")[0]
 reason_chain = "<thoughts>\n" + reason_chain + "</thoughts>\n"
 
@@ -233,4 +236,5 @@ cont = summary_model._model.generate(
 
 text_outputs = summary_model._tokenizer.batch_decode(cont, skip_special_tokens=True)
 
-print(text_outputs)
+print("Final Answer:")
+print(text_outputs[0])

@@ -8,7 +8,7 @@ from PIL import Image
 from transformers import AutoTokenizer
 
 
-llama3_tok = AutoTokenizer.from_pretrained("/mnt/lzy/models/llama3-llava-next")
+llama3_tok = AutoTokenizer.from_pretrained("lmms-lab/llama3-llava-next-8b")
 
 class SeparatorStyle(Enum):
     """Different separator style."""
